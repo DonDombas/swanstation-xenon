@@ -1,5 +1,14 @@
 # SwanStation - PlayStation 1, aka. PSX Emulator
 
+> **SwanStation CoverArt — wersja projektu DonDombas dla Xbox 360.**
+> Rozszerza [oryginalny port xenosworks/swanstation-xenon](https://github.com/xenosworks/swanstation-xenon)
+> o automatyczne okładki, lokalną pamięć grafik i szybsze podglądy. Autorzy
+> oryginalnego emulatora i portu zachowują swoje prawa i uznanie.
+>
+> Gotowa paczka oraz instrukcja instalacji: [Wydania / Releases](https://github.com/DonDombas/swanstation-xenon/releases).
+> Wersja 0.1.3.1 jest testowa: płynność, rozgrywka i zapisy wymagają dalszych
+> testów na konsoli. Gry i BIOS należy zapewnić samodzielnie.
+
 ## Opis
 Port Xbox 360 udostępnia okładki gier w istniejącym pickerze: lokalny cache JPG/PNG,
 opcjonalne HTTPS z PSX Covers i jednoznaczny fallback Libretro. Brak grafiki lub
@@ -33,6 +42,7 @@ Domyślne katalogi gier i zapisów pozostają bez zmian. Więcej w `docs/COVER_A
   bufora RAM czeka na ocenę płynności na konsoli. Rozgrywka i zapisy wymagają dalszych testów.
 
 ## Historia zmian
+- `docs(readme)`: oznaczenie wersji DonDombas i odnośnik do wydań.
 - Bieżący commit `docs(readme)`: instrukcja konfiguracji okładek dla Xbox 360.
 - `d2ab127d`: lokalne okładki, bezpieczne HTTPS, bufor podglądów i testy hosta/CI.
 - `7c2a4b29`: wersja 0.1.2.0 w nagłówku XEX.
