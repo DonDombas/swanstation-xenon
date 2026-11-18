@@ -9,6 +9,12 @@
 > Wersja 0.1.3.1 jest testowa: płynność, rozgrywka i zapisy wymagają dalszych
 > testów na konsoli. Gry i BIOS należy zapewnić samodzielnie.
 
+### Okładka SwanStation dla Aurory
+
+Autorska grafika przygotowana dla tej wersji SwanStation:
+
+![Okładka SwanStation dla Aurory](assets/aurora/swanstation-aurora-preview.png)
+
 ## Opis
 Port Xbox 360 udostępnia okładki gier w istniejącym pickerze: lokalny cache JPG/PNG,
 opcjonalne HTTPS z PSX Covers i jednoznaczny fallback Libretro. Brak grafiki lub
@@ -42,6 +48,8 @@ Domyślne katalogi gier i zapisów pozostają bez zmian. Więcej w `docs/COVER_A
   bufora RAM czeka na ocenę płynności na konsoli. Rozgrywka i zapisy wymagają dalszych testów.
 
 ## Historia zmian
+- `docs(readme)`: dodanie podglądu okładki Aurory.
+- `36ba73c1`: grafika okładki SwanStation dla Aurory.
 - `docs(readme)`: oznaczenie wersji DonDombas i odnośnik do wydań.
 - Bieżący commit `docs(readme)`: instrukcja konfiguracji okładek dla Xbox 360.
 - `d2ab127d`: lokalne okładki, bezpieczne HTTPS, bufor podglądów i testy hosta/CI.
